@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer components {
+    .cta-parallax {
+        background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(79, 70, 229, 0.5); 
+        background-blend-mode: overlay;
+    }
+
+    /* Clase auxiliar para las FAQ que usaremos con el JS */
+    .faq-answer {
+        transition: max-height 0.3s ease-out;
+    }
+}
